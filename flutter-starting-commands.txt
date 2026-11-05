@@ -1,0 +1,39 @@
+FLUTTER STARTING COMMANDS – MAC
+
+1.  Check Flutter installation flutter –version flutter doctor flutter
+    devices
+
+2.  Create a new Flutter project flutter create project_name cd
+    project_name code .
+
+3.  Get project dependencies flutter pub get
+
+4.  Run the Flutter application flutter run
+
+5.  Run on Chrome (Flutter Web) flutter run -d chrome
+
+6.  Clean generated build files flutter clean flutter pub get
+
+7.  Build for Android flutter build apk
+
+8.  Build for iOS (macOS + Xcode required) flutter build ios flutter
+    build ipa
+
+9.  Build for Web flutter build web
+
+10. Useful device commands flutter devices flutter emulators flutter
+    emulators –launch
+
+RUN AN EXISTING EXPERIMENT
+
+Open Terminal in the experiment folder that contains pubspec.yaml, then
+run: flutter pub get flutter run
+
+For a web experiment: flutter pub get flutter run -d chrome
+
+NOTES - Run Flutter commands from the project folder containing
+pubspec.yaml. - If flutter is not found, install Flutter SDK and add its
+bin directory to your PATH. - code . opens the current folder in Visual
+Studio Code; install the VS Code command-line launcher if the command is
+not recognised. - iOS builds require macOS and Xcode. - Android builds
+require Android SDK / Android Studio setup.
